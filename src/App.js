@@ -24,7 +24,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App" style={{ "justifyContent": "center", "textAlign": "center" }}>
       <h1>React-a-Mole!</h1>
       {score}
       {createMoleHill()}
